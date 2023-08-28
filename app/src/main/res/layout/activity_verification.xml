@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".VerificationActivity">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/img1"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:textSize="17sp"
+        android:textColor="@color/black"/>
+
+    <androidx.cardview.widget.CardView
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        tools:ignore="UselessLeaf" >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext"
+        android:background="@drawable/background_shape"
+        android:hint="@string/telefon_raqamingizni_yozing"
+        android:padding="10dp"
+        android:ems="1"
+        android:inputType="phone"
+        tools:ignore="Autofill,TextFields" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn"
+            android:text="@string/oldinga"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/kok"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "746136435973",
+    "project_id": "online-bazar-d8f68",
+    "storage_bucket": "online-bazar-d8f68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746136435973:android:444dfa320178a25c50cb6c",
+        "android_client_info": {
+          "package_name": "com.example.onlinebazar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746136435973-chcslg7b3098q5o7esrbfkpsj50t4e0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6IedmTzLFIPfIqUGtSmh5Lh6pZpKt9rU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746136435973-chcslg7b3098q5o7esrbfkpsj50t4e0s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

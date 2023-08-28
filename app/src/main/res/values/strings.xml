@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Online Bazar</string>
+    <string name="text">Assalomu alykum bizning dasturga Xush kelibsiz! Bu dasturda siz uyingizdan turib narsalar xarid qilishingiz mumkin!</string>
+    <string name="telefon_raqamingizni_yozing">Telefon raqamingizni yozing!</string>
+    <string name="oldinga">Oldinga</string>
+    <string name="text1">Biz sizga kodni sms tarzda yubordik!</string>
+    <string name="kodni_yozing">Kodni yozing!</string>
+    <string name="kirish">Kirish</string>
+    <string name="text2">Sizning raqamingiz! +998937350655</string>
+    <string name="hello_world">Hello world</string>
+</resources>
